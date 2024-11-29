@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "f5a8d32c-f3c7-4f3d-9b9f-9743103a441e",
+		"name": "Newman Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4532576"
+	},
+	"item": [
+		{
+			"name": "Test GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/get?{{queryParam}}={{queryParamVal}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "{{queryParam}}",
+							"value": "{{queryParamVal}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
